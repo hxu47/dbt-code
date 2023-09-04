@@ -1,5 +1,7 @@
 
 
+
+
 SELECT 
 * 
 FROM PROD.DBT_RAW.CREDITS

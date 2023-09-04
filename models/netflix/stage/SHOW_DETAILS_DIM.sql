@@ -3,6 +3,11 @@
     materialized='table'
 ) }}
 
+{{ config(
+    tags=[var('TAG_DIMENSION')]
+) }}
+
+
 SELECT
 ID
 ,TITLE

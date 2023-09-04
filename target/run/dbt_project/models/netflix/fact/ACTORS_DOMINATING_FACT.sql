@@ -6,6 +6,8 @@
          as
         (
 
+
+
 WITH ACTORS AS
 (
     SELECT 

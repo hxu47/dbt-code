@@ -1,5 +1,7 @@
 
 
+
+
 WITH VOTES AS
 (
 SELECT ID

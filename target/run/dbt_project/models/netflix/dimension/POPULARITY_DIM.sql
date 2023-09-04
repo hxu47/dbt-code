@@ -6,6 +6,8 @@
          as
         (
 
+
+
 WITH VOTES AS
 (
 SELECT ID

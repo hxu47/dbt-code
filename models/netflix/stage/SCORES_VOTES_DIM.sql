@@ -4,6 +4,11 @@
     materialized='table'
 ) }}
 
+{{ config(
+    tags=[var('TAG_DIMENSION')]
+) }}
+
+
 SELECT
 ID
 ,IMDB_ID

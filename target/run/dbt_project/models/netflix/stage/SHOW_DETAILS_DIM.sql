@@ -6,6 +6,9 @@
          as
         (
 
+
+
+
 SELECT
 ID
 ,TITLE

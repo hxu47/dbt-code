@@ -4,6 +4,10 @@
     materialized='table' 
 ) }}
 
+{{ config(
+    tags=[var('TAG_FACT')]
+) }}
+
 WITH VOTES AS
 (
 SELECT ID

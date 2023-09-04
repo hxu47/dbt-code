@@ -3,6 +3,10 @@
     materialized='table'
 ) }}
 
+{{ config(
+    tags=[var('TAG_DIMENSION')]
+) }}
+
 SELECT 
 * 
 FROM PROD.DBT_RAW.CREDITS
